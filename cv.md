@@ -36,3 +36,13 @@ let arr = ['2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg
 ```
 
 ### Job expirience: none
+
+### Education:
+1. Master of digital information processing
+2. RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+### Languages:
+
++ Russian - Native
++ Ukrainian - High
++ English - A2

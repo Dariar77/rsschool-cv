@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <a href="">About me</a>
+                <a href="">Contacts</a>
+                <a href="">Skills</a>
+                <a href="">Code example</a>
+                <a href="">Education</a>
+                <a href="">Languages</a>
+            </nav> 
+             <div class="aboutme">
+                <img src="" alt="foto">
+                <h1>Daria Romantsova</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="contacts">
+                <h2>Contacts</h2>
+                    <ul>
+                        <li>E-mail: dariaromantsova@mail.ru</li>
+                        <li>Telegram: @Dariarrrrrom</li>
+                    </ul>
+            </section>
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Figma</li>
+                    <li>VS code</li>
+                    <li>MS Access</li>
+                </ul>
+            </section>
+            <section class="code">
+                <h2>Code example</h2>
+                <p>
+                let arr = ['2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg'],
+                block = document.querySelector('.click-foto'),
+                i = 0;
+
+                block.onclick = boom;
+
+                function boom() {
+                    block.style.backgroundImage='url(../img/'+arr[i]+')';
+                    i++;
+
+                    if (i == arr.length) {
+                    i = 0;
+                    }
+                    
+                } 
+                </p>
+            </section>
+            <section class="Education">
+                
+            </section>
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

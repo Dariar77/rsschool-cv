@@ -17,6 +17,7 @@
 .navbar{
     padding: 15px;
     border-left: 1px solid #475569;
+    border-right: 1px solid #475569;
     border-radius: 50px;
 }
 .logo-nav{
@@ -28,7 +29,7 @@
 }
 .navbar ul li{
     padding-bottom: 7px;
-    padding-top: 7px;
+    padding-top: 7.5px;
 }
 .nav-link{
     text-decoration: none;
@@ -87,6 +88,43 @@
 .code{
     margin-left: 50px;
 }
+.web-dev{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -20px;
+}
+.my-works{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #475569;
+}
+.portfolio-img{
+    width: 230px;
+    border: #8E9FB7 dotted 1px;
+    border-radius: 5px;
+}
+.portfolio_item{
+    text-align: center;
+}
+.portfolio-item_text {
+    max-width: 230px;
+    text-align: center;
+}
+.portf-btn{
+    text-decoration: none;
+    color: #475569;
+    background-color: #F3F7FA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.portf-btn:hover{
+    text-decoration: underline #475569 1px;
+}
 .Education{
     margin-left: 50px;
 }
@@ -98,7 +136,6 @@
 .last-sect{
     display: flex;
     justify-content: space-between;
-    margin-top: -40px;
 }
 .footer .container{
     display: flex;
@@ -116,7 +153,4 @@
     margin-right: 50px;
     width: 96px;
     margin-top: 13px;
-}
-.footer p:hover{
-    font-weight: 700;
 }

@@ -10,30 +10,44 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="logo-nav">
-                <nav class="navbar">
-                    <a href="" class="nav-link">About me</a>
-                    <a href="" class="nav-link">Contacts</a>
-                    <a href="" class="nav-link">Skills</a>
-                    <a href="" class="nav-link">Code example</a>
-                    <a href="" class="nav-link">Education</a>
-                    <a href="" class="nav-link">Languages</a>
-                </nav> 
-            </div>
+            <div class="wrap">
+            
+            <img src="assets/img/me.jpg" alt="foto" class="userpic">
              <div class="aboutme">
-                <img src="assets/img/me.jpg" alt="foto" class="userpic">
+               
             <div class="headline">
                 <h1>Daria Romantsova</h1>
                 <h3>Student</h3>
                 <p class="text-aboutme">I am 16, I am finishing school (grade 11) and looking for my stable occupation. Graduated from "UPK" and received a diploma of "Master in Digital Information Processing". This institution gave me a lot of knowledge in different fields. I learned how to design business cards, leaflets, studied the database, and most importantly, they showed me the basics of frontend development. I know HTML, CSS, some JS, also worked with bootstrap and figma. I liked this area and that is why I have a great desire to take this course</p> 
             </div>
-                
+                 
+            </div>
+
+            <div class="logo-nav">
+                <nav class="navbar">
+                    <ul class="ul-list">
+                        <li><a href="" class="nav-link">About me</a></li>
+                        <li><a href="" class="nav-link">Contacts</a></li>
+                        <li><a href="" class="nav-link">Skills</a></li>
+                        <li><a href="" class="nav-link">Code example</a></li>
+                        <li><a href="" class="nav-link">Education</a></li>
+                        <li><a href="" class="nav-link">Languages</a></li>
+                    </ul>
+                    
+                    
+                    
+                                       
+                </nav> 
+            </div>
+
             </div>
         </div>
     </header>
-    <main>
+    <main class="main">
         <div class="container">
-            <section class="contacts">
+            <div class="cont-code">
+            <div class="cont-skil">
+               <section class="contacts">
                 <h2>Contacts</h2>
                     <ul>
                         <li>E-mail: dariaromantsova@mail.ru</li>
@@ -49,7 +63,9 @@
                     <li>VS code</li>
                     <li>MS Access</li>
                 </ul>
-            </section>
+            </section> 
+            </div>
+            
             <section class="code">
                 <h2>Code example</h2>
                 <pre>
@@ -72,6 +88,8 @@
                     </code>
                 </pre>
             </section>
+            </div>
+            <div class="last-sect">
             <section class="Education">
                 <h2>Education</h2>
                 <ol>
@@ -87,13 +105,14 @@
                     <li>English - A2</li>
                 </ul>
             </section>
+            </div>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <img src="" alt="github-logo">
+            <a href="https://github.com/Dariar77"><img src="assets/img/github-logo.png" alt="github-logo" class="git-logo"></a>
             <p>2022</p>
-            <img src="" alt="rs-school">
+            <a href="https://rs.school/js/"><img src="assets/img/rs_school_js.svg" alt="rs-school" class="rs-logo"></a> 
         </div>
     </footer>
 </body>

@@ -1,33 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 .container {
-    max-width: 1440px;
+    max-width: 1180px;
     margin: 0 auto;
   }
+.header{
+    color: #475569
+}
+.header .container{
+    background-color: #F3F7FA;
+    border-radius: 50px;
+}
 .navbar{
-    padding: 20px;
+    padding: 15px;
+    border-left: 1px solid #475569;
+    border-radius: 50px;
+}
+.logo-nav{
     text-align: center;
+}
+.ul-list{
+    list-style-type: none;
+    padding: 0;
+}
+.navbar ul li{
+    padding-bottom: 7px;
+    padding-top: 7px;
 }
 .nav-link{
     text-decoration: none;
-    color: black;
-    padding-left: 20px;
+    color: #475569;
+    flex-direction: column;
+}
+.nav-link:hover{
+    cursor: pointer;
+    text-decoration: underline #475569 1px;
 }
 .userpic{
     width: 15%;
-    border-radius: 50%;
+    height: 20%;
+    border-radius: 50px;
+    border: 2px solid #FFFFFF;
+}
+.wrap{
+    display: flex;
 }
 .aboutme{
     display: flex;
-    padding-left: 150px;
-    padding-right: 50px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 850px;
 }
 .headline{
     text-align: justify;
-    padding: 30px 100px;
+    padding-left: 45px;
+    padding-right: 35px;
 }
-.text-aboutme{
-    
+.headline h3{
+    color: #8E9FB7;
+}
+.main h2{
+    color: #8E9FB7;
+}
+.main{
+    color: #475569;
+    margin-bottom: 20px;
+}
+.main .container{
+    border: 2px dotted #8E9FB7;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 20px;
+}
+.contacts{
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.skills{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+.code{
+    margin-left: 50px;
+}
+.Education{
+    margin-left: 50px;
+}
+.Languages{
+    margin-left: 50px;
+    margin-right: 140px;
+    margin-bottom: 25px;
+}
+.last-sect{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F7FA;
+    border-radius: 25px;
+}
+.git-logo{
+    width: 48px;
+    height: 48px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.rs-logo{
+    margin-right: 50px;
+    width: 96px;
+    margin-top: 13px;
+}
+.footer p:hover{
+    font-weight: 700;
 }

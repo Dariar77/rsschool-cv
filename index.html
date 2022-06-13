@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="wrap">
+            
+            <img src="assets/img/me.jpg" alt="foto" class="userpic">
+             <div class="aboutme">
+               
+            <div class="headline">
+                <h1 id="about">Daria Romantsova</h1>
+                <h3>Student</h3>
+                <p class="text-aboutme">I am 16, I am finishing school (grade 11) and looking for my stable occupation. Graduated from "UPK" and received a diploma of "Master in Digital Information Processing". This institution gave me a lot of knowledge in different fields. I learned how to design business cards, leaflets, studied the database, and most importantly, they showed me the basics of frontend development. I know HTML, CSS, some JS, also worked with bootstrap and figma. I liked this area and that is why I have a great desire to take this course</p> 
+            </div>
+                 
+            </div>
+
+            <div class="logo-nav">
+                <nav class="navbar">
+                    <ul class="ul-list">
+                        <li><a href="#about" class="nav-link">About me</a></li>
+                        <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li><a href="#skills" class="nav-link">Skills</a></li>
+                        <li><a href="#code" class="nav-link">Code example</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#education" class="nav-link">Education</a></li>
+                    </ul>                                                        
+                </nav> 
+            </div>
+
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="cont-code">
+            <div class="cont-skil">
+               <section class="contacts">
+                <h2 id="contacts">Contacts</h2>
+                    <ul>
+                        <li>E-mail: dariaromantsova@mail.ru</li>
+                        <li>Telegram: @Dariarrrrrom</li>
+                    </ul>
+            </section>
+            <section class="skills">
+                <h2 id="skills">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Figma</li>
+                    <li>VS code</li>
+                    <li>MS Access</li>
+                </ul>
+            </section> 
+            </div>
+            
+            <section class="code">
+                <h2 id="code">Code example</h2>
+                <pre>
+                    <code>
+                let arr = ['2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg'],
+                block = document.querySelector('.click-foto'),
+                i = 0;
+
+                block.onclick = boom;
+
+                function boom() {
+                    block.style.backgroundImage='url(../img/'+arr[i]+')';
+                    i++;
+
+                    if (i == arr.length) {
+                    i = 0;
+                    }
+                    
+                } 
+                    </code>
+                </pre>
+            </section>
+            </div>
+
+            <section class="web-dev">
+                <h2 id="projects">Projects</h2>
+                <div class="my-works">
+
+                    <div class="portfolio_item">
+                        <img src="assets/img/Spongebob.PNG" alt="web-site" class="portfolio-img">
+                        <p class="portfolio-item_text">Оne-page Sponge Bob website. HTML5 + CSS3</p>
+                        <a href="https://daria-rom.github.io/spounge-bob/" class="portf-btn">View</a>
+                    </div>
+                    <div class="portfolio_item">
+                        <img src="assets/img/Sonador.PNG" alt="web-site" class="portfolio-img">
+                        <p class="portfolio-item_text">Sonador sketchbook website. HTML5 + CSS3</p>
+                        <a href="https://daria-rom.github.io/SonadorSketchbook/" class="portf-btn">View</a>
+                    </div>
+                    <div class="portfolio_item">
+                        <img src="assets/img/wither.PNG" alt="web-site" class="portfolio-img">
+                        <p class="portfolio-item_text">Wither website. HTML5 + CSS3</p>
+                        <a href="https://daria-rom.github.io/witcher/" class="portf-btn">View</a>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <div class="last-sect">
+            <section class="Education">
+                <h2 id="education">Education</h2>
+                <ol>
+                    <li>Master of digital information processing</li>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ol>
+            </section>
+            <section class="Languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>Ukrainian - High</li>
+                    <li>English - A2</li>
+                </ul>
+            </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="https://github.com/Dariar77"><img src="assets/img/github-logo.png" alt="github-logo" class="git-logo"></a>
+            <p>2022</p>
+            <a href="https://rs.school/js/"><img src="assets/img/rs_school_js.svg" alt="rs-school" class="rs-logo"></a> 
+        </div>
+    </footer>
+</body>
+</html>
